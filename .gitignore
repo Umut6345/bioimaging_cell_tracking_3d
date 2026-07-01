@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Bizim Projeye Özel Biyomedikal Veri ve Yapay Zeka Kısıtları ---
+data/
+*.zarr/
+*.pt
+*.pth
+submission.csv
