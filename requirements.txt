@@ -1,0 +1,24 @@
+# Core
+numpy
+pandas
+matplotlib
+scipy
+
+# Zarr and Image Processing
+zarr
+scikit-image
+Pillow
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# Utilities
+tqdm
+jupyter
+ipykernel
+
+# Optional / Development
+black
+flake8
