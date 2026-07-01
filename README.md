@@ -20,13 +20,10 @@ Biyoloji öğretmeni olarak geliştirdiğim bu proje, Zarr formatındaki 4D (3B 
 - Toplam track edilen hücre hareket adımı: **1613+**
 
 ## Kurulum
-```bash
-pip install -r requirements.txt
-## Kurulum
 
 ```bash
 # Repoyu klonla
-git clone https://github.com/Umut6345/bioimaging_cell_tracking_3d.git
+git clone [https://github.com/Umut6345/bioimaging_cell_tracking_3d.git](https://github.com/Umut6345/bioimaging_cell_tracking_3d.git)
 cd bioimaging_cell_tracking_3d
 
 # Gereksinimleri yükle
