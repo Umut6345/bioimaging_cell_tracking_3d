@@ -1,2 +1,24 @@
-# bioimaging_cell_tracking_3d
-Hybrid 3D Cell Tracking Pipeline using 3D U-Net, Watershed, and Hungarian Algorithm for microscopy data. Developed for immune cell migration and high-content drug screening applications.
+# Bioimaging Cell Tracking 3D
+
+**3D Mikroskopi Verilerinde Hücre Segmentasyonu ve Takibi**
+
+Biyoloji öğretmeni olarak geliştirdiğim bu proje, Zarr formatındaki 4D (3B + Zaman) mikroskopi verilerinde hücreleri otomatik olarak tespit edip zaman içinde takip ediyor.
+
+## Özellikler
+- **Veri**: Zarr formatı (100 zaman dilimi, 64×256×256 3D hacimler)
+- **Segmentasyon**: 3D U-Net (PyTorch) + 3B Euclidean Distance Transform + Watershed
+- **Tracking**: Hungarian Algoritması (15 piksel gating)
+- **Çıktı**: `submission.csv` formatında takip sonuçları
+
+## Kullanım Alanları
+- İmmünoloji: Bağışıklık hücrelerinin hareket analizi (in vivo imaging)
+- İlaç Geliştirme: High-content screening ve organoid takibi
+- Embriyo gelişimi ve kanser araştırmaları
+
+## Sonuçlar
+- Eğitim: 5 epoch ile loss 0.34 → 0.1504
+- Toplam track edilen hücre hareket adımı: **1613+**
+
+## Kurulum
+```bash
+pip install -r requirements.txt
