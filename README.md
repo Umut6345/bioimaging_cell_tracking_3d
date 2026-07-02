@@ -1,3 +1,5 @@
+> **Not**: Bu repository temel ve eğitici bir versiyon içermektedir.  
+> Daha gelişmiş model (25 epoch, düşük validation loss, 6069+ track) ve ek geliştirmeler (division detection vb.) **özel işbirlikleri ve projeler** için mevcuttur.
 # Bioimaging Cell Tracking 3D
 
 **3D Mikroskopi Verilerinde Hücre Segmentasyonu ve Takibi**
@@ -26,6 +28,3 @@ cd bioimaging_cell_tracking_3d
 
 # Gereksinimleri yükle
 pip install -r requirements.txt
-
-> **Not**: Bu repository temel ve eğitici bir versiyon içermektedir.  
-> Daha gelişmiş model (25 epoch, düşük validation loss, 6069+ track) ve ek geliştirmeler (division detection vb.) **özel işbirlikleri ve projeler** için mevcuttur.
