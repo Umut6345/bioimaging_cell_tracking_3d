@@ -2,8 +2,6 @@
 
 **3D Mikroskopi Verilerinde Hücre Segmentasyonu ve Takibi**
 
-Biyoloji öğretmeni olarak geliştirdiğim bu proje, Zarr formatındaki 4D (3B + Zaman) mikroskopi verilerinde hücreleri otomatik olarak tespit edip zaman içinde takip ediyor.
-
 ## Özellikler
 - **Veri**: Zarr formatı (100 zaman dilimi, 64×256×256 3D hacimler)
 - **Segmentasyon**: 3D U-Net (PyTorch) + 3B Euclidean Distance Transform + Watershed
@@ -28,3 +26,6 @@ cd bioimaging_cell_tracking_3d
 
 # Gereksinimleri yükle
 pip install -r requirements.txt
+
+> **Not**: Bu repository temel ve eğitici bir versiyon içermektedir.  
+> Daha gelişmiş model (25 epoch, düşük validation loss, 6069+ track) ve ek geliştirmeler (division detection vb.) **özel işbirlikleri ve projeler** için mevcuttur.
